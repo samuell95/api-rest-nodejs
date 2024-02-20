@@ -1,0 +1,18 @@
+POST http://localhost:3333/transactions
+content-type: application/json
+
+{
+  "title": "Hambuguer",
+  "amount":36,
+  "type":"debit",
+}
+
+####
+
+GET http://localhost:3333/transactions
+
+###
+GET http://localhost:3333/transactions/ecb13c31-5c0f-4ce3-8222-b1f4c1a7abd6
+
+###
+GET http://localhost:3333/transactions/summary
